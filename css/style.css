@@ -5,7 +5,7 @@ box-sizing: border-box;
  }
 html {
 width: 1600px;
-height: 2349px;
+height: 2929px;
  }
 :root {
 --main-color: #000000;
@@ -76,6 +76,9 @@ color: var(--color-white)
 .logo-foot span {
 color: var(--color-blue);
 }
+.mail {
+display: flex;
+}
 .mail-top {
 position: absolute;
 width: 135px;
@@ -117,7 +120,10 @@ width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-background-color: var(--color-deepblue);
+}
+.buy {
+background-image: linear-gradient(to right,  rgba(47, 48, 58, 0.4), rgba(47,48,58,0.4)),
+url('../images/Header\ img\ \(1\).jpg') 
 }
 button {
 width: 200px;
@@ -143,9 +149,17 @@ justify-content: space-around;
 position: absolute;
 flex-wrap: wrap;
 width: 1170px;
-height: 101px;
+height: 251px;
 left: 215px;
 top: 774px;
+}
+.svg {
+width: 270px;
+height: 120px;
+background-color: var(--color-lightgrey);
+}
+.svg img {
+margin: 25px 102px;
 }
 .properties-list span {
 font-size: 14px;
@@ -159,50 +173,31 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 10px;
+margin-top: 30px;
 color: var(--main-color);
+}
+.activities {
+width: 1170px;
+height: 386px;
+margin: 1039px 215px 94px 215px;
+}
+.promo {
+display: flex;
+justify-content: space-between;
 }
 .activities h2 {
-position: absolute;
 width: 376px;
 height: 42px;
-left: 612px;
-top: 969px;
 font-size: 36px;
 line-height: 42px;
-text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-color);
-}
-.image1 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
-}
-.image2 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
-}
-.image3 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
-}
-.activities img {
-width: 370px;
-height: 294px;
+margin: 0px 397px 50px 397px;
 }
 .team {
 display: flex;
 width: 1600px;
-height: 648px;
-margin-top: 1449px;
+height: 708px;
 background-color: var(--color-lightgrey)
 }
 .team h3 {
@@ -218,7 +213,7 @@ margin-top: 94px;
 .members {
 text-align: center;
 width: 270px;
-height: 368px;
+height: 428px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 margin-bottom: 94px;
@@ -255,12 +250,68 @@ color: var(--main-color)
 span {
 color: var(--color-grey)
 }
+.logoclients {
+width: 1170px;
+height: 182px;
+left: 215px;
+margin: 94px 215px 94px 215px;
+}
+h4 {
+width: 390px;
+height: 42px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+margin: 0px 389px 50px 391px;
+}
+.clients {
+display: flex;
+justify-content: space-between;
+}
+.client1 {
+background-image: url("../images/icons/logo\ 1.svg");
+background-repeat: no-repeat;
+background-position: 50%;
+}
+.client2 {
+background-image: url("..//images/icons/logo\ 2.svg");
+background-repeat: no-repeat;
+background-position: 50%;
+}
+.client3 {
+background-image: url("../images/icons/logo\ 3.svg");
+background-repeat: no-repeat;
+background-position: 50%;
+}
+.client4 {
+background-image: url("../images/icons/logo\ 4.svg");
+background-repeat: no-repeat;
+background-position: 50%;
+}
+.client5 {
+background-image: url("../images/icons/logo\ 5.svg");
+background-repeat: no-repeat;
+background-position: 50%;
+}
+.client6 {
+background-image: url("../images/icons/logo\ 6.svg");
+background-repeat: no-repeat;
+background-position: 50%;
+}
+.logoclients li {
+width: 170px;
+height: 90px;    
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+}
 .footer-container {
 display: flex;
 width: 1600px;
 height: 252px;
-left: 0px;
-top: 2097px;
 background-color: var(--color-deepblue);
 }
 .logo-foot {
