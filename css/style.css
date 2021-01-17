@@ -312,6 +312,7 @@ border-radius: 4px;
 display: flex;
 width: 1600px;
 height: 252px;
+top: 2677px;
 background-color: var(--color-deepblue);
 }
 .logo-foot {
@@ -322,8 +323,7 @@ display: inline;
 color: var(--color-white);
 }
 .contacts {
-position: absolute;
-display: block;
+display: inline-block;
 width: 231px;
 height: 81px;
 margin-top: 111px;
@@ -383,14 +383,24 @@ background-repeat: no-repeat;
 .linksvg {
 margin: 12px 12px 12px 12px;
 }
+h5 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
 .social {
-display: inline-block;
+position: absolute;
 width: 206px;
 height: 80px;
-margin-left: 70px;    
+left: 516px;
+top: 2749px;
 }
 .social-links {
 display: flex;
 justify-content: space-between;
-position: absolute;
 }
