@@ -353,6 +353,44 @@ width: 44px;
 height: 44px;
 background-repeat: no-repeat;
 }
-.instagram img {
-    margin: auto;
+.instsvg {
+margin: 12px 12px 12px 12px;
+}
+.twitter {
+background: url(../images/icons/Ellipse.svg);
+width: 44px;
+height: 44px;
+background-repeat: no-repeat;
+}
+.twitsvg {
+margin: 12px 12px 12px 12px;
+}
+.facebook {
+background: url(../images/icons/Ellipse.svg);
+width: 44px;
+height: 44px;
+background-repeat: no-repeat;
+}
+.facesvg {
+margin: 12px 12px 12px 12px;
+}
+.linkedin {
+background: url(../images/icons/Ellipse.svg);
+width: 44px;
+height: 44px;
+background-repeat: no-repeat;
+}
+.linksvg {
+margin: 12px 12px 12px 12px;
+}
+.social {
+display: inline-block;
+width: 206px;
+height: 80px;
+margin-left: 70px;    
+}
+.social-links {
+display: flex;
+justify-content: space-between;
+position: absolute;
 }
