@@ -80,18 +80,25 @@ color: var(--color-blue);
 display: flex;
 }
 .mail-top {
+display: flex;
 position: absolute;
-width: 135px;
+width: 161px;
 height: 16px;
 left: 1078px;
 top: 32px;
 }
+.mail-top:hover > .mailsvg {
+fill: var(--color-blue);
+}
 .tel-top {
 position: absolute;
-width: 122px;
+width: 142px;
 height: 16px;
 left: 1263px;
 top: 32px;
+}
+.telsvg {
+margin-right: 10px;
 }
 .links-top {
 display: flex;
@@ -361,6 +368,7 @@ background: url(../images/icons/Ellipse.svg);
 width: 44px;
 height: 44px;
 background-repeat: no-repeat;
+color: var(--color-grey);
 }
 .twitsvg {
 margin: 12px 12px 12px 12px;
