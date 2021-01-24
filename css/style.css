@@ -87,7 +87,13 @@ height: 16px;
 left: 1078px;
 top: 32px;
 }
-.mail-top:hover > .mailsvg {
+.svglink {
+margin-right: 10px;
+}
+.svglink .path {
+fill: var(--color-grey);
+}
+.svglink:hover .path {
 fill: var(--color-blue);
 }
 .tel-top {
@@ -97,9 +103,6 @@ height: 16px;
 left: 1263px;
 top: 32px;
 }
-.telsvg {
-margin-right: 10px;
-}
 .links-top {
 display: flex;
 }
@@ -108,7 +111,7 @@ font-size: 14px;
 color: var(--color-grey)
 }
 .links-top a:hover {
-color: var(--color-blue);
+color: var(--color-blue)
 }
 .order {
 font-weight: bold;
