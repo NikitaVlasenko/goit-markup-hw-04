@@ -14,6 +14,7 @@ height: 2929px;
 --color-white : #ffffff;
 --color-deepblue : #2F303A;
 --color-lightgrey : #F5F4FA;
+--color-grey2: #AFB1B8;
 font-family: Roboto;
 }
 .header {
@@ -281,40 +282,37 @@ margin: 0px 389px 50px 391px;
 display: flex;
 justify-content: space-between;
 }
-.client1 {
-background-image: url("../images/icons/logo\ 1.svg");
-background-repeat: no-repeat;
-background-position: 50%;
+.client1svg {
+margin: 20px 63px;
 }
-.client2 {
-background-image: url("..//images/icons/logo\ 2.svg");
-background-repeat: no-repeat;
-background-position: 50%;
+.client1:hover path {
+fill: var(--color-blue);
 }
-.client3 {
-background-image: url("../images/icons/logo\ 3.svg");
-background-repeat: no-repeat;
-background-position: 50%;
+.client1:hover {
+border: 1px solid var(--color-blue);
 }
-.client4 {
-background-image: url("../images/icons/logo\ 4.svg");
-background-repeat: no-repeat;
-background-position: 50%;
+.client2svg {
+margin: 19px 65px;
 }
-.client5 {
-background-image: url("../images/icons/logo\ 5.svg");
-background-repeat: no-repeat;
-background-position: 50%;
+.client3svg {
+margin: 24px 65px;
 }
-.client6 {
-background-image: url("../images/icons/logo\ 6.svg");
-background-repeat: no-repeat;
-background-position: 50%;
+.client4svg {
+margin: 24px 45px;
+}
+.client4svg path {
+fill:var(--color-grey2);
+}
+.client5svg {
+margin: 22px 56px;
+}
+.client6svg {
+margin: 22px 41px;
 }
 .logoclients li {
 width: 170px;
 height: 90px;    
-border: 1px solid #AFB1B8;
+border: 1px solid var(--color-grey2);
 box-sizing: border-box;
 border-radius: 4px;
 }
