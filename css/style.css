@@ -91,10 +91,13 @@ top: 32px;
 .svglink {
 margin-right: 10px;
 }
-.svglink .path {
+.svglink path {
 fill: var(--color-grey);
 }
-.svglink:hover .path {
+.mail-top:hover path {
+fill: var(--color-blue);
+}
+.tel-top:hover path {
 fill: var(--color-blue);
 }
 .tel-top {
@@ -291,11 +294,29 @@ fill: var(--color-blue);
 .client1:hover {
 border: 1px solid var(--color-blue);
 }
+.client2:hover path {
+fill: var(--color-blue);
+}
+.client2:hover {
+border: 1px solid var(--color-blue);
+}
 .client2svg {
 margin: 19px 65px;
 }
+.client3:hover path {
+fill: var(--color-blue);
+}
+.client3:hover {
+border: 1px solid var(--color-blue);
+}
 .client3svg {
 margin: 24px 65px;
+}
+.client4:hover path {
+fill: var(--color-blue);
+}
+.client4:hover {
+border: 1px solid var(--color-blue);
 }
 .client4svg {
 margin: 24px 45px;
@@ -303,8 +324,20 @@ margin: 24px 45px;
 .client4svg path {
 fill:var(--color-grey2);
 }
+.client5:hover path {
+fill: var(--color-blue);
+}
+.client5:hover {
+border: 1px solid var(--color-blue);
+}
 .client5svg {
 margin: 22px 56px;
+}
+.client6:hover path {
+fill: var(--color-blue);
+}
+.client6:hover {
+border: 1px solid var(--color-blue);
 }
 .client6svg {
 margin: 22px 41px;
@@ -356,41 +389,53 @@ margin-bottom: 60px;
 margin-top: 9px;
 }
 .instagram {
-background: url(../images/icons/Ellipse.svg);
-width: 44px;
-height: 44px;
+background-image: url(../images/icons/instagram\ 2.svg);
 background-repeat: no-repeat;
+background-position: 12px 12px;
+z-index: 2;
 }
-.instsvg {
-margin: 12px 12px 12px 12px;
+.instagram path {
+fill: var(--color-grey);
+opacity: 1.0;
+}
+.instagram:hover path {
+fill: var(--color-blue);
 }
 .twitter {
-background: url(../images/icons/Ellipse.svg);
-width: 44px;
-height: 44px;
+background-image: url(../images/icons/twitter\ 1.svg);
 background-repeat: no-repeat;
-color: var(--color-grey);
+background-position: 12px 12px;
 }
-.twitsvg {
-margin: 12px 12px 12px 12px;
+.twitter path {
+fill: var(--color-grey);
+opacity: 1.0;
+}
+.twitter:hover path {
+fill: var(--color-blue);
 }
 .facebook {
-background: url(../images/icons/Ellipse.svg);
-width: 44px;
-height: 44px;
+background-image: url(../images/icons/facebook\ 1.svg);
 background-repeat: no-repeat;
+background-position: 12px 12px;
 }
-.facesvg {
-margin: 12px 12px 12px 12px;
+.facebook path {
+fill: var(--color-grey);
+opacity: 1.0;
+}
+.facebook:hover path {
+fill: var(--color-blue);
 }
 .linkedin {
-background: url(../images/icons/Ellipse.svg);
-width: 44px;
-height: 44px;
+background-image: url(../images/icons/linkedin\ 1.svg);
 background-repeat: no-repeat;
+background-position: 12px 12px;
 }
-.linksvg {
-margin: 12px 12px 12px 12px;
+.linkedin path {
+fill: var(--color-grey);
+opacity: 1.0;
+}
+.linkedin:hover path {
+fill: var(--color-blue);
 }
 h5 {
 font-family: Roboto;
