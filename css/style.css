@@ -226,13 +226,14 @@ margin-top: 94px;
 }
 .members {
 text-align: center;
-width: 270px;
-height: 428px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 margin-bottom: 94px;
 background: var(--color-white)
 } 
+.members path {
+fill: var(--color-grey);
+}
 .teammates {
 position: absolute;
 display: flex;
@@ -252,11 +253,16 @@ line-height: 19px;
 }
 .team li {
 width: 270px;
-height: 368px;
+height: 428px;
 }
 .team img {
 width: 270px;
 height: 260px;
+}
+.teamlinks {
+    display: flex;
+margin: 16px 32px 30px 32px;
+justify-content: space-around;
 }
 p {
 color: var(--main-color)
@@ -389,52 +395,79 @@ margin-bottom: 60px;
 margin-top: 9px;
 }
 .instagram {
-background-image: url(../images/icons/instagram\ 2.svg);
-background-repeat: no-repeat;
-background-position: 12px 12px;
-z-index: 2;
+width: 44px;
+height: 44px;
 }
-.instagram path {
+.instlogo {
+position: relative;
+bottom: 35px;
+left: 12px;
+}
+.instlogo path {
+fill: var(--color-white);
+}
+.circleinst path {
 fill: var(--color-grey);
 opacity: 1.0;
 }
-.instagram:hover path {
+.circleinst:hover path {
 fill: var(--color-blue);
 }
 .twitter {
-background-image: url(../images/icons/twitter\ 1.svg);
-background-repeat: no-repeat;
-background-position: 12px 12px;
+width: 44px;
+height: 44px;
 }
-.twitter path {
+.circletwit path {
 fill: var(--color-grey);
 opacity: 1.0;
 }
-.twitter:hover path {
+.twitlogo path {
+fill: var(--color-white);
+}
+.twitlogo {
+position: relative;
+bottom: 35px;
+left: 12px;
+}
+.circletwit:hover path {
 fill: var(--color-blue);
 }
 .facebook {
-background-image: url(../images/icons/facebook\ 1.svg);
-background-repeat: no-repeat;
-background-position: 12px 12px;
+width: 44px;
+height: 44px;
 }
-.facebook path {
+.circleface path {
 fill: var(--color-grey);
 opacity: 1.0;
 }
-.facebook:hover path {
+.facelogo path {
+fill: var(--color-white);
+}
+.facelogo {
+position: relative;
+bottom: 35px;
+left: 12px;
+}
+.circleface:hover path {
 fill: var(--color-blue);
 }
 .linkedin {
-background-image: url(../images/icons/linkedin\ 1.svg);
-background-repeat: no-repeat;
-background-position: 12px 12px;
+width: 44px;
+height: 44px;
 }
-.linkedin path {
+.circleln path {
 fill: var(--color-grey);
 opacity: 1.0;
 }
-.linkedin:hover path {
+.lnlogo path {
+fill: var(--color-white);
+}
+.lnlogo {
+position: relative;
+bottom: 35px;
+left: 12px;
+}
+.circleln:hover path {
 fill: var(--color-blue);
 }
 h5 {
