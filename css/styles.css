@@ -211,7 +211,6 @@ color:var(--color-white);
 display: flex;
 width: 1600px;
 height: 252px;
-left: 0px;
 top: 1628px;
 background:var(--color-deepblue);
 }
@@ -223,9 +222,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color:var(--color-white);
 }
-.adress {
-position: absolute;
-display: block;
+.contacts {
 width: 231px;
 height: 81px;
 margin: 111px 1154px 60px 215px;
@@ -236,3 +233,101 @@ margin-top: 9px;
 .adress p {
 color: var(--color-white)
 }
+.instagram {
+width: 44px;
+height: 44px;
+}
+.instlogo {
+position: relative;
+bottom: 35px;
+left: 12px;
+}
+.instlogo path {
+fill: var(--color-white);
+}
+.circleinst path {
+fill: var(--color-grey);
+opacity: 1.0;
+}
+.circleinst:hover path {
+fill: var(--color-blue);
+}
+.twitter {
+width: 44px;
+height: 44px;
+}
+.circletwit path {
+fill: var(--color-grey);
+opacity: 1.0;
+}
+.twitlogo path {
+fill: var(--color-white);
+}
+    .twitlogo {
+    position: relative;
+    bottom: 35px;
+    left: 12px;
+    }
+    .circletwit:hover path {
+    fill: var(--color-blue);
+    }
+    .facebook {
+    width: 44px;
+    height: 44px;
+    }
+    .circleface path {
+    fill: var(--color-grey);
+    opacity: 1.0;
+    }
+    .facelogo path {
+    fill: var(--color-white);
+    }
+    .facelogo {
+    position: relative;
+    bottom: 35px;
+    left: 12px;
+    }
+    .circleface:hover path {
+    fill: var(--color-blue);
+    }
+    .linkedin {
+    width: 44px;
+    height: 44px;
+    }
+    .circleln path {
+    fill: var(--color-grey);
+    opacity: 1.0;
+    }
+    .lnlogo path {
+    fill: var(--color-white);
+    }
+    .lnlogo {
+    position: relative;
+    bottom: 35px;
+    left: 12px;
+    }
+    .circleln:hover path {
+    fill: var(--color-blue);
+    }
+    h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    }
+    .social {
+    position: absolute;
+    width: 206px;
+    height: 80px;
+    left: 516px;
+    top: 1703px;
+    margin-right: 70px;
+    }
+    .social-links {
+    display: flex;
+    justify-content: space-between;
+    }

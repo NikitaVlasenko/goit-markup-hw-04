@@ -375,13 +375,11 @@ display: inline;
 color: var(--color-white);
 }
 .contacts {
-display: inline-block;
 width: 231px;
 height: 81px;
 margin-top: 111px;
 margin-left: 215px;
 margin-bottom: 60px;
-padding: 0px;
 }
 .contacts p {
 color: var(--color-white)
