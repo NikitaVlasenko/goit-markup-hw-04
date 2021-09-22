@@ -101,6 +101,18 @@ color: var(--main-color);
 nav a:hover {
 color:var(--color-blue);
 }
+.svglink path {
+fill: var(--color-grey);
+}
+.mail-top:hover path {
+fill: var(--color-blue);
+}
+.tel-top:hover path {
+fill: var(--color-blue);
+}
+.svglink {
+margin-right: 10px;
+}
 .contact-links a {
 font-family: Roboto;
 font-style: normal;
@@ -113,16 +125,16 @@ color: var(--color-blue);
 }
 .mail-top {
 position: absolute;
-width: 135px;
+width: 161px;
 height: 16px;
-left: 1078px;
+left: 1052px;
 top: 32px;
 }
 .tel-top {
 position: absolute;
-width: 122px;
+width: 142px;
 height: 16px;
-left: 1263px;
+left: 1243px;
 top: 32px;
 }
 main {

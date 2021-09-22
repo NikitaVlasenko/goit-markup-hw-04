@@ -77,11 +77,14 @@ color: var(--color-white)
 .logo-foot span {
 color: var(--color-blue);
 }
-.mail {
-display: flex;
+.tel-top {
+position: absolute;
+width: 142px;
+height: 16px;
+left: 1263px;
+top: 32px;
 }
 .mail-top {
-display: flex;
 position: absolute;
 width: 161px;
 height: 16px;
@@ -99,13 +102,6 @@ fill: var(--color-blue);
 }
 .tel-top:hover path {
 fill: var(--color-blue);
-}
-.tel-top {
-position: absolute;
-width: 142px;
-height: 16px;
-left: 1263px;
-top: 32px;
 }
 .links-top {
 display: flex;
