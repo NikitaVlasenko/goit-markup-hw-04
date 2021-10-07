@@ -92,18 +92,15 @@ left: 1078px;
 top: 32px;
 }
 .mailicon {
-width: 10px;
-height: 16px;
-fill: var(--color-grey);
-}
-.mailicon:hover {
-fill: var(--color-blue);
-}
-.path {
+width: 30px;
+height: 19px;
 fill: var(--color-grey);
 }
 .mail-top:hover {
 fill: var(--color-blue);
+}  
+.mail-top:hover {
+color: var(--color-blue);
 }
 .svglink {
 margin-right: 10px;
@@ -119,7 +116,7 @@ font-size: 14px;
 color: var(--color-grey)
 } 
 .links-top a:hover {
-color: var(--color-blue)
+fill: var(--color-blue);
 }
 .order {
 font-weight: bold;
@@ -170,11 +167,12 @@ width: 1170px;
 height: 251px;
 left: 215px;
 top: 774px;
+background-color: var(--color-white);
 }
 .svg { 
 width: 270px;
 height: 120px;
-background-color: var(--color-lightgrey);
+fill: var(--color-grey);
 }
 .svg img {
 margin: 25px 102px;
