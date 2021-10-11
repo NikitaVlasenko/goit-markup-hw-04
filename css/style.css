@@ -162,20 +162,41 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 position: absolute;
-flex-wrap: wrap;
 width: 1170px;
 height: 251px;
 left: 215px;
 top: 774px;
 background-color: var(--color-white);
 }
-.svg { 
+.property {
+width: 270px;
+height: 251px;
+border-radius: 4px;
+justify-content: space-around;
+}
+.picpro {
 width: 270px;
 height: 120px;
-fill: var(--color-grey);
+background-color: var(--color-lightgrey);
+border-radius: 4px;
+padding: 25px 100px;
 }
-.svg img {
-margin: 25px 102px;
+.clients {
+display: flex;
+justify-content: space-between;
+}
+.client {
+width: 170px;
+height: 90px;    
+border: 1px solid var(--color-grey2);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.clientpic { 
+fill: var(--color-grey2);
+width: 106px;
+height: 60px;
+margin: 16px 32px;
 }
 .properties-list span {
 font-size: 14px;
@@ -233,15 +254,6 @@ border-radius: 0px 0px 4px 4px;
 margin-bottom: 94px;
 background: var(--color-white)
 }  
-.circle:hover path {
-fill: var(--color-blue);
-}
-.logo1 path {
-fill: var(--color-grey2);
-}
-.logo1:hover path {
-fill: var(--color-white);
-}
 .teammates {
 position: absolute;
 display: flex;
@@ -276,12 +288,6 @@ justify-content: space-around;
 .teamlinks a {
 stroke: var(--color-white);
 }
-p {
-color: var(--main-color)
-}
-span {
-color: var(--color-grey)
-}
 .logoclients {
 width: 1170px;
 height: 182px;
@@ -297,74 +303,6 @@ font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 margin: 0px 389px 50px 391px;
-}
-.clients {
-display: flex;
-justify-content: space-between;
-}
-.client1svg {
-margin: 20px 63px;
-}
-.client1:hover path {
-fill: var(--color-blue);
-}
-.client1:hover {
-border: 1px solid var(--color-blue);
-}
-.client2:hover path {
-fill: var(--color-blue);
-}
-.client2:hover {
-border: 1px solid var(--color-blue);
-}
-.client2svg {
-margin: 19px 65px;
-}
-.client3:hover path {
-fill: var(--color-blue);
-}
-.client3:hover {
-border: 1px solid var(--color-blue);
-}
-.client3svg {
-margin: 24px 65px;
-}
-.client4:hover path {
-fill: var(--color-blue);
-}
-.client4:hover {
-border: 1px solid var(--color-blue);
-}
-.client4svg {
-margin: 24px 45px;
-}
-.client4svg path {
-fill:var(--color-grey2);
-}
-.client5:hover path {
-fill: var(--color-blue);
-}
-.client5:hover {
-border: 1px solid var(--color-blue);
-}
-.client5svg {
-margin: 22px 56px;
-}
-.client6:hover path {
-fill: var(--color-blue);
-}
-.client6:hover {
-border: 1px solid var(--color-blue);
-}
-.client6svg {
-margin: 22px 41px;
-}
-.logoclients li {
-width: 170px;
-height: 90px;    
-border: 1px solid var(--color-grey2);
-box-sizing: border-box;
-border-radius: 4px;
 }
 .footer-container {
 display: flex;
