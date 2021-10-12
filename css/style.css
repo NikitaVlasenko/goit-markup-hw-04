@@ -81,43 +81,35 @@ color: var(--color-blue);
 position: absolute;
 width: 142px;
 height: 16px;
-left: 1263px;
+left: 1243px;
 top: 32px;
 }
 .mail-top {
 position: absolute;
 width: 161px;
-height: 16px;
+height: 25px;
 left: 1078px;
 top: 32px;
 }
 .mailicon {
-width: 30px;
-height: 19px;
+width: 20px;
+height: 22px;
 fill: var(--color-grey);
+padding-top: 10px;
 }
-.mail-top:hover {
-fill: var(--color-blue);
-}  
-.mail-top:hover {
-color: var(--color-blue);
-}
-.svglink {
-margin-right: 10px;
-}
-.tel-top:hover path {
-fill: var(--color-blue);
-}
+.telicon {
+width: 10px;
+height: 16px;
+fill: var(--color-grey);
+margin-top: 7px;
+} 
 .links-top {
 display: flex;
 }
-.links-top a {
+.links-top text {
 font-size: 14px;
-color: var(--color-grey)
+color: var(--color-grey);
 } 
-.links-top a:hover {
-fill: var(--color-blue);
-}
 .order {
 font-weight: bold;
 font-size: 16px;
@@ -192,11 +184,17 @@ border: 1px solid var(--color-grey2);
 box-sizing: border-box;
 border-radius: 4px;
 }
+.client:hover {
+border: 1px solid var(--color-blue);
+}
 .clientpic { 
 fill: var(--color-grey2);
 width: 106px;
 height: 60px;
 margin: 16px 32px;
+}
+.clientpic:hover {
+fill:var(--color-blue);
 }
 .properties-list span {
 font-size: 14px;
