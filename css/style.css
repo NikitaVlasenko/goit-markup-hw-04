@@ -77,13 +77,6 @@ color: var(--color-white)
 .logo-foot span {
 color: var(--color-blue);
 }
-.tel-top {
-position: absolute;
-width: 142px;
-height: 16px;
-left: 1243px;
-top: 32px;
-}
 .mail-top {
 position: absolute;
 width: 161px;
@@ -97,14 +90,30 @@ height: 22px;
 fill: var(--color-grey);
 padding-top: 10px;
 }
+a:hover .mailicon {
+fill: var(--color-blue);
+}
+.tel-top {
+position: absolute;
+width: 142px;
+height: 16px;
+left: 1243px;
+top: 32px;
+}
 .telicon {
 width: 10px;
 height: 16px;
 fill: var(--color-grey);
 margin-top: 7px;
 } 
+a:hover .telicon {
+fill: var(--color-blue);
+}
 .links-top {
 display: flex;
+}
+.links-top text:hover {
+color: var(--color-blue);
 }
 .links-top text {
 font-size: 14px;
@@ -179,22 +188,22 @@ justify-content: space-between;
 }
 .client {
 width: 170px;
-height: 90px;    
+height: 92px;    
 border: 1px solid var(--color-grey2);
-box-sizing: border-box;
 border-radius: 4px;
+box-sizing: border-box;
 }
-.client:hover {
+.client:hover { 
 border: 1px solid var(--color-blue);
 }
 .clientpic { 
 fill: var(--color-grey2);
-width: 106px;
-height: 60px;
-margin: 16px 32px;
+width: 170px;
+height: 92px;
+padding: 16px 32px;
 }
-.clientpic:hover {
-fill:var(--color-blue);
+a:hover .clientpic {
+fill: var(--color-blue);
 }
 .properties-list span {
 font-size: 14px;
@@ -282,9 +291,9 @@ position: relative;
 display: flex;
 margin: 16px 32px 30px 32px;
 justify-content: space-around;
-}
-.teamlinks a {
-stroke: var(--color-white);
+width: 206px;
+height: 44px;
+background-color: var(--color-blue);
 }
 .logoclients {
 width: 1170px;
