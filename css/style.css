@@ -259,7 +259,9 @@ text-align: center;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 margin-bottom: 94px;
-background: var(--color-white)
+background: var(--color-white);
+width: 270px;
+height: 428px;
 }  
 .teammates {
 position: absolute;
@@ -278,10 +280,6 @@ margin-bottom: 10px;
 font-size: 16px;
 line-height: 19px;
 }
-.team li {
-width: 270px;
-height: 428px;
-}
 .team img {
 width: 270px;
 height: 260px;
@@ -293,7 +291,40 @@ margin: 16px 32px 30px 32px;
 justify-content: space-around;
 width: 206px;
 height: 44px;
-background-color: var(--color-blue);
+}
+.teamlinks li{
+width: 44px;
+height: 44px;
+}
+.ellipselink {
+width: 44px;
+height: 44px;
+fill: var(--color-lightgrey);
+}
+.ellipselink:hover {
+fill: var(--color-blue);
+}
+.insta {
+width: 20px;
+height: 20px;
+position: absolute;
+fill: var(--color-grey);
+left: 15px;
+top: 12px;
+}
+a:hover .insta{
+fill: var(--color-white);
+}
+.twit {
+width: 20px;
+height: 20px;
+position: absolute;
+fill :var(--color-grey);
+left: 67px;
+top: 14px;
+}
+a:hover .twit {
+fill: var(--color-white);
 }
 .logoclients {
 width: 1170px;
