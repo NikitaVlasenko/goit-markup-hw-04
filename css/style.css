@@ -299,7 +299,7 @@ height: 44px;
 .ellipselink {
 width: 44px;
 height: 44px;
-fill: var(--color-lightgrey);
+fill: var(--color-white);
 }
 .ellipselink:hover {
 fill: var(--color-blue);
@@ -324,6 +324,28 @@ left: 67px;
 top: 14px;
 }
 a:hover .twit {
+fill: var(--color-white);
+}
+.face {
+width: 20px;
+height: 20px;
+position: absolute;
+fill :var(--color-grey);
+left: 119px;
+top: 14px;
+}
+a:hover .face {
+fill: var(--color-white);
+}
+.link {
+width: 20px;
+height: 20px;
+position: absolute;
+fill :var(--color-grey);
+left: 171px;
+top: 14px;
+}
+a:hover .link {
 fill: var(--color-white);
 }
 .logoclients {
@@ -379,81 +401,50 @@ margin-bottom: 60px;
 .footer-links li {
 margin-top: 9px;
 }
-.instagram {
-width: 44px;
-height: 44px;
-}
-.instlogo {
-position: relative;
-bottom: 35px;
+.instagram .insta {
+width: 20px;
+height: 20px;
+fill: var(--color-white);
+top: 48px;
 left: 12px;
 }
-.instlogo path {
-fill: var(--color-white);
-}
-.circleinst path {
+.instagram .ellipselink {
 fill: var(--color-grey);
-opacity: 1.0;
+top: 20px;
 }
-.circleinst:hover path {
+.instagram .ellipselink:hover {
 fill: var(--color-blue);
 }
-.twitter {
-width: 44px;
-height: 44px;
-}
-.circletwit path {
-fill: var(--color-grey);
-opacity: 1.0;
-}
-.twitlogo path {
+.twitter .twit {
+top: 48px;
 fill: var(--color-white);
 }
-.twitlogo {
-position: relative;
-bottom: 35px;
-left: 12px;
-}
-.circletwit:hover path {
+.twitter .ellipselink:hover {
 fill: var(--color-blue);
 }
-.facebook {
-width: 44px;
-height: 44px;
-}
-.circleface path {
+.twitter .ellipselink {
 fill: var(--color-grey);
-opacity: 1.0;
 }
-.facelogo path {
+.facebook .face {
+top: 48px;
 fill: var(--color-white);
 }
-.facelogo {
-position: relative;
-bottom: 35px;
-left: 12px;
-}
-.circleface:hover path {
+.facebook .ellipselink:hover {
 fill: var(--color-blue);
 }
-.linkedin {
-width: 44px;
-height: 44px;
-}
-.circleln path {
+.facebook .ellipselink {
 fill: var(--color-grey);
-opacity: 1.0;
 }
-.lnlogo path {
+.linkedin .link {
+top: 48px;
+left: 174px;
 fill: var(--color-white);
 }
-.lnlogo {
-position: relative;
-bottom: 35px;
-left: 12px;
-}
-.circleln:hover path {
+.linkedin .ellipselink:hover {
 fill: var(--color-blue);
+}
+.linkedin .ellipselink {
+fill: var(--color-grey);
 }
 h5 {
 font-family: Roboto;
@@ -475,4 +466,8 @@ top: 2749px;
 .social-links {
 display: flex;
 justify-content: space-between;
+}
+.social-links li{
+width: 44px;
+height: 44px;
 }
