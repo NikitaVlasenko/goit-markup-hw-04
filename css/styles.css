@@ -147,7 +147,7 @@ left: 215px;
 top: 262px;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-background: var(--color-lightgrey)
+background: var(--color-white)
 }
 .groups {
 margin: 0px 215px 94px 215px;
@@ -181,7 +181,7 @@ margin: 20px 24px 20px 24px;
 }
 .name {
 font-weight: bold;
-font-size: 18px;
+font-size: 17px;
 line-height: 36px;    
 letter-spacing: 0.06em;    
 color:var(--main-color);
